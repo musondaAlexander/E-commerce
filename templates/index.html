@@ -21,35 +21,71 @@
 
     <!-- ::::::::::::::All CSS Files here :::::::::::::: -->
     <!-- Vendor CSS -->
-    <!-- <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/ionicons.css">
-    <link rel="stylesheet" href="assets/css/vendor/simple-line-icons.css">
-    <link rel="stylesheet" href="assets/css/vendor/jquery-ui.min.css"> -->
+    <link
+      rel="stylesheet"
+      type="text/html"
+      href="{% static 'assets/css/vendor/font-awesome.min.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/html"
+      href="{% static 'assets/css/vendor/ionicons.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/html"
+      href="{% static 'assets/css/vendor/simple-line-icons.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/html"
+      href="{% static 'assets/css/vendor/jquery-ui.min.css' %}"
+    />
 
     <!-- Plugin CSS -->
-    <!-- <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
-    <link rel="stylesheet" href="assets/css/plugins/venobox.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/jquery.lineProgressbar.css">
-    <link rel="stylesheet" href="assets/css/plugins/aos.min.css"> -->
+    <link
+      rel="stylesheet"
+      type="text/html"
+      href="{% static 'assets/css/plugins/swiper-bundle.min.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/html"
+      href="{% static 'assets/css/plugins/animate.min.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/html"
+      href="{% static 'assets/css/plugins/nice-select.css' %}">
+    <link
+      rel="stylesheet"
+      type="text/html"
+      href="{% static 'assets/css/plugins/venobox.min.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'assets/css/plugins/jquery.lineProgressbar.css' %}">
+    <link
+      rel="stylesheet"
+      type="text/html"
+      href="{% static 'assets/css/plugins/aos.min.css' %}">
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="{% static 'assets/sass/style.css '%}"> 
+    <link rel="stylesheet" type="text/html" href="{% static 'assets/sass/style.css '%}">
 
     <!-- Use the minified version files listed below for better performance and remove the files listed above -->
     <link
       rel="stylesheet"
-      type="text/html"
-      href="{% static 'assets/css/vendor/vendor.min.css' %}">
+      href="{% static 'assets/css/vendor/vendor.min.css' %}"
+    />
     <link
       rel="stylesheet"
-      type="text/html"
-      href="{% static 'assets/css/plugins/plugins.min.css' %}">
+      href="{% static 'assets/css/plugins/plugins.min.css' %}"
+    />
     <link
       rel="stylesheet"
-      type="text/html"
-      href="{% static 'assets/css/style.min.css' %}">
+      href="{% static 'assets/css/style.min.css' %}"
+    />
   </head>
 
   <body>
@@ -349,7 +385,10 @@
                 <li>
                   <a href="index.html">
                     <div class="logo">
-                      <img src="assets/images/logo/logo_black.png" alt="" />
+                      <img
+                        src="{% static 'assets/images/logo/logo_black.png' %}"
+                        alt=""
+                      />
                     </div>
                   </a>
                 </li>
@@ -602,7 +641,9 @@
         <div class="mobile-contact-info">
           <div class="logo">
             <a href="index.html"
-              ><img src="assets/images/logo/logo_white.png" alt=""
+              ><img
+                src="{% static 'assets/images/logo/logo_white.png' %}"
+                alt=""
             /></a>
           </div>
 
@@ -656,7 +697,7 @@
       <div class="mobile-contact-info">
         <div class="logo">
           <a href="index.html"
-            ><img src="assets/images/logo/logo_white.png" alt=""
+            ><img src="{% static 'assets/images/logo/logo_white.png' %}" alt=""
           /></a>
         </div>
 
@@ -712,7 +753,7 @@
             <div class="offcanvas-cart-item-block">
               <a href="#" class="offcanvas-cart-item-image-link">
                 <img
-                  src="assets/images/product/default/home-1/default-1.jpg"
+                  src="{% static 'assets/images/product/default/home-1/default-1.jpg' %}"
                   alt=""
                   class="offcanvas-cart-image"
                 />
@@ -735,7 +776,7 @@
             <div class="offcanvas-cart-item-block">
               <a href="#" class="offcanvas-cart-item-image-link">
                 <img
-                  src="assets/images/product/default/home-2/default-1.jpg"
+                  src="{% static 'assets/images/product/default/home-2/default-1.jpg' %}"
                   alt=""
                   class="offcanvas-cart-image"
                 />
@@ -758,7 +799,7 @@
             <div class="offcanvas-cart-item-block">
               <a href="#" class="offcanvas-cart-item-image-link">
                 <img
-                  src="assets/images/product/default/home-3/default-1.jpg"
+                  src="{% static 'assets/images/product/default/home-3/default-1.jpg' %}"
                   alt=""
                   class="offcanvas-cart-image"
                 />
@@ -818,7 +859,7 @@
             <div class="offcanvas-wishlist-item-block">
               <a href="#" class="offcanvas-wishlist-item-image-link">
                 <img
-                  src="assets/images/product/default/home-1/default-1.jpg"
+                  src="{% static 'assets/images/product/default/home-1/default-1.jpg' %}"
                   alt=""
                   class="offcanvas-wishlist-image"
                 />
@@ -845,7 +886,7 @@
             <div class="offcanvas-wishlist-item-block">
               <a href="#" class="offcanvas-wishlist-item-image-link">
                 <img
-                  src="assets/images/product/default/home-2/default-1.jpg"
+                  src="{% static 'assets/images/product/default/home-2/default-1.jpg' %}"
                   alt=""
                   class="offcanvas-wishlist-image"
                 />
@@ -872,7 +913,7 @@
             <div class="offcanvas-wishlist-item-block">
               <a href="#" class="offcanvas-wishlist-item-image-link">
                 <img
-                  src="assets/images/product/default/home-3/default-1.jpg"
+                  src="{% static 'assets/images/product/default/home-3/default-1.jpg' %}"
                   alt=""
                   class="offcanvas-wishlist-image"
                 />
@@ -932,7 +973,7 @@
             <!-- Hero Slider Image -->
             <div class="hero-slider-bg">
               <img
-                src="assets/images/hero-slider/home-1/hero-slider-1.jpg"
+                src="{% static 'assets/images/hero-slider/home-1/hero-slider-1.jpg' %}"
                 alt=""
               />
             </div>
@@ -964,7 +1005,7 @@
             <!-- Hero Slider Image -->
             <div class="hero-slider-bg">
               <img
-                src="assets/images/hero-slider/home-1/hero-slider-2.jpg"
+                src="{% static 'assets/images/hero-slider/home-1/hero-slider-2.jpg' %}"
                 alt=""
               />
             </div>
@@ -1016,7 +1057,10 @@
                 data-aos-delay="0"
               >
                 <div class="image">
-                  <img src="assets/images/icons/service-promo-1.png" alt="" />
+                  <img
+                    src="{% static 'assets/images/icons/service-promo-1.png ' %}"
+                    alt=""
+                  />
                 </div>
                 <div class="content">
                   <h6 class="title">FREE SHIPPING</h6>
@@ -1036,7 +1080,10 @@
                 data-aos-delay="200"
               >
                 <div class="image">
-                  <img src="assets/images/icons/service-promo-2.png" alt="" />
+                  <img
+                    src="{% static 'assets/images/icons/service-promo-2.png' %}"
+                    alt=""
+                  />
                 </div>
                 <div class="content">
                   <h6 class="title">30 DAYS MONEY BACK</h6>
@@ -1056,7 +1103,10 @@
                 data-aos-delay="400"
               >
                 <div class="image">
-                  <img src="assets/images/icons/service-promo-3.png" alt="" />
+                  <img
+                    src="{% static 'assets/images/icons/service-promo-3.png' %}"
+                    alt=""
+                  />
                 </div>
                 <div class="content">
                   <h6 class="title">SAFE PAYMENT</h6>
@@ -1076,7 +1126,10 @@
                 data-aos-delay="600"
               >
                 <div class="image">
-                  <img src="assets/images/icons/service-promo-4.png" alt="" />
+                  <img
+                    src="{% static 'assets/images/icons/service-promo-4.png' %}"
+                    alt=""
+                  />
                 </div>
                 <div class="content">
                   <h6 class="title">LOYALTY CUSTOMER</h6>
@@ -1108,7 +1161,7 @@
               >
                 <div class="image">
                   <img
-                    src="assets/images/banner/banner-style-1-img-1.jpg"
+                    src="{% static 'assets/images/banner/banner-style-1-img-1.jpg'%}"
                     alt=""
                   />
                 </div>
@@ -1138,7 +1191,7 @@
                   >
                     <div class="image">
                       <img
-                        src="assets/images/banner/banner-style-2-img-1.jpg"
+                        src="{% static 'assets/images/banner/banner-style-2-img-1.jpg' %}"
                         alt=""
                       />
                     </div>
@@ -1163,7 +1216,7 @@
                   >
                     <div class="image">
                       <img
-                        src="assets/images/banner/banner-style-2-img-2.jpg"
+                        src="{% static 'assets/images/banner/banner-style-2-img-2.jpg' %}"
                         alt=""
                       />
                     </div>
@@ -1188,7 +1241,7 @@
                   >
                     <div class="image">
                       <img
-                        src="assets/images/banner/banner-style-2-img-3.jpg"
+                        src="{% static 'assets/images/banner/banner-style-2-img-3.jpg' %}"
                         alt=""
                       />
                     </div>
@@ -1213,7 +1266,7 @@
                   >
                     <div class="image">
                       <img
-                        src="assets/images/banner/banner-style-2-img-4.jpg"
+                        src="{% static 'assets/images/banner/banner-style-2-img-4.jpg' %}"
                         alt=""
                       />
                     </div>
@@ -1278,11 +1331,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-1.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-1.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-2.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-2.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -1355,11 +1408,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-3.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-3.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-4.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-4.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -1432,11 +1485,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-5.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-5.jpg'%}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-6.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-6.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -1509,11 +1562,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-7.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-7.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-8.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-8.jpg'%}"
                             alt=""
                           />
                         </a>
@@ -1583,11 +1636,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-9.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-9.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-10.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-10.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -1657,11 +1710,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-11.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-11.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-3.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-3.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -1731,11 +1784,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-5.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-5.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-7.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-7.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -1805,11 +1858,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-6.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-6.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-9.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-9.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -1879,11 +1932,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-3.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-3.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-5.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-5.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -1953,11 +2006,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-4.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-4.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-7.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-7.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2030,11 +2083,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-5.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-5.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-8.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-8.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2104,11 +2157,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-10.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-10.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-6.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-6.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2195,7 +2248,7 @@
               <div class="image">
                 <img
                   class="img-fluid"
-                  src="assets/images/banner/banner-style-3-img-1.jpg"
+                  src="{% static 'assets/images/banner/banner-style-3-img-1.jpg' %}"
                   alt=""
                 />
               </div>
@@ -2257,11 +2310,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-9.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-9.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-10.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-10.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2331,11 +2384,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-11.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-11.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-3.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-3.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2405,11 +2458,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-5.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-5.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-7.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-7.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2479,11 +2532,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-6.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-6.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-9.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-9.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2553,11 +2606,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-1.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-1.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-2.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-2.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2630,11 +2683,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-3.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-3.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-4.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-4.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2707,11 +2760,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-5.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-5.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-6.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-6.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2784,11 +2837,11 @@
                           class="image-link"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-7.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-7.jpg' %}"
                             alt=""
                           />
                           <img
-                            src="assets/images/product/default/home-1/default-8.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-8.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -2873,7 +2926,7 @@
           <div class="image">
             <img
               class="img-fluid"
-              src="assets/images/banner/banner-style-4-img-1.jpg"
+              src="{% static 'assets/images/banner/banner-style-4-img-1.jpg' %}"
               alt=""
             />
           </div>
@@ -2897,7 +2950,7 @@
           <div class="image">
             <img
               class="img-fluid"
-              src="assets/images/banner/banner-style-4-img-2.jpg"
+              src="{% static 'assets/images/banner/banner-style-4-img-2.jpg' %}"
               alt=""
             />
           </div>
@@ -2921,7 +2974,7 @@
           <div class="image">
             <img
               class="img-fluid"
-              src="assets/images/banner/banner-style-4-img-3.jpg"
+              src="{% static 'assets/images/banner/banner-style-4-img-3.jpg' %}"
               alt=""
             />
           </div>
@@ -2945,7 +2998,7 @@
           <div class="image">
             <img
               class="img-fluid"
-              src="assets/images/banner/banner-style-4-img-4.jpg"
+              src="{% static 'assets/images/banner/banner-style-4-img-4.jpg' %}"
               alt=""
             />
           </div>
@@ -3005,7 +3058,7 @@
                         >
                           <img
                             class="img-fluid"
-                            src="assets/images/blog/blog-grid-home-1-img-1.jpg"
+                            src="{% static 'assets/images/blog/blog-grid-home-1-img-1.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -3046,7 +3099,7 @@
                         >
                           <img
                             class="img-fluid"
-                            src="assets/images/blog/blog-grid-home-1-img-2.jpg"
+                            src="{% static 'assets/images/blog/blog-grid-home-1-img-2.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -3087,7 +3140,7 @@
                         >
                           <img
                             class="img-fluid"
-                            src="assets/images/blog/blog-grid-home-1-img-3.jpg"
+                            src="{% static 'assets/images/blog/blog-grid-home-1-img-3.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -3128,7 +3181,7 @@
                         >
                           <img
                             class="img-fluid"
-                            src="assets/images/blog/blog-grid-home-1-img-4.jpg"
+                            src="{% static 'assets/images/blog/blog-grid-home-1-img-4.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -3169,7 +3222,7 @@
                         >
                           <img
                             class="img-fluid"
-                            src="assets/images/blog/blog-grid-home-1-img-5.jpg"
+                            src="{% static 'assets/images/blog/blog-grid-home-1-img-5.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -3210,7 +3263,7 @@
                         >
                           <img
                             class="img-fluid"
-                            src="assets/images/blog/blog-grid-home-1-img-6.jpg"
+                            src="{% static 'assets/images/blog/blog-grid-home-1-img-6.jpg' %}"
                             alt=""
                           />
                         </a>
@@ -3265,37 +3318,37 @@
                     href="https://www.instagram.com/p/CCFOZKDDS6S/"
                     target="_blank"
                     class="instagram-image-link float-left banner-animation"
-                    ><img src="assets/images/instagram/instagram-1.jpg" alt=""
+                    ><img src="{% static 'assets/images/instagram/instagram-1.jpg' %}" alt=""
                   /></a>
                   <a
                     href="https://www.instagram.com/p/CCFOYDNjWF5/"
                     target="_blank"
                     class="instagram-image-link float-left banner-animation"
-                    ><img src="assets/images/instagram/instagram-2.jpg" alt=""
+                    ><img src="{% static 'assets/images/instagram/instagram-2.jpg' %}" alt=""
                   /></a>
                   <a
                     href="https://www.instagram.com/p/CCFOXH6D-zQ/"
                     target="_blank"
                     class="instagram-image-link float-left banner-animation"
-                    ><img src="assets/images/instagram/instagram-3.jpg" alt=""
+                    ><img src="{% static 'assets/images/instagram/instagram-3.jpg' %}" alt=""
                   /></a>
                   <a
                     href="https://www.instagram.com/p/CCFOVcrDDOo/"
                     target="_blank"
                     class="instagram-image-link float-left banner-animation"
-                    ><img src="assets/images/instagram/instagram-4.jpg" alt=""
+                    ><img src="{% static 'assets/images/instagram/instagram-4.jpg' %}" alt=""
                   /></a>
                   <a
                     href="https://www.instagram.com/p/CCFOUajjABP/"
                     target="_blank"
                     class="instagram-image-link float-left banner-animation"
-                    ><img src="assets/images/instagram/instagram-5.jpg" alt=""
+                    ><img src="{% static 'assets/images/instagram/instagram-5.jpg' %}" alt=""
                   /></a>
                   <a
                     href="https://www.instagram.com/p/CCFOS2MDmjj/"
                     target="_blank"
                     class="instagram-image-link float-left banner-animation"
-                    ><img src="assets/images/instagram/instagram-6.jpg" alt=""
+                    ><img src="{% static 'assets/images/instagram/instagram-6.jpg' %}" alt=""
                   /></a>
                 </div>
                 <div class="instagram-link">
@@ -3478,7 +3531,7 @@
               <div class="col-auto mb-6">
                 <div class="footer-payment">
                   <div class="image">
-                    <img src="assets/images/company-logo/payment.png" alt="" />
+                    <img src="{% static 'assets/images/company-logo/payment.png' %}" alt="" />
                   </div>
                 </div>
               </div>
@@ -3524,7 +3577,7 @@
                       <div class="modal-add-cart-product-img">
                         <img
                           class="img-fluid"
-                          src="assets/images/product/default/home-1/default-1.jpg"
+                          src="{% static 'assets/images/product/default/home-1/default-1.jpg' %}"
                           alt=""
                         />
                       </div>
@@ -3599,7 +3652,7 @@
                           class="product-image-large-image swiper-slide img-responsive"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-1.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-1.jpg' %}"
                             alt=""
                           />
                         </div>
@@ -3607,7 +3660,7 @@
                           class="product-image-large-image swiper-slide img-responsive"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-2.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-2.jpg' %}"
                             alt=""
                           />
                         </div>
@@ -3615,7 +3668,7 @@
                           class="product-image-large-image swiper-slide img-responsive"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-3.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-3.jpg' %}"
                             alt=""
                           />
                         </div>
@@ -3623,7 +3676,7 @@
                           class="product-image-large-image swiper-slide img-responsive"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-4.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-4.jpg' %}"
                             alt=""
                           />
                         </div>
@@ -3631,7 +3684,7 @@
                           class="product-image-large-image swiper-slide img-responsive"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-5.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-5.jpg' %}"
                             alt=""
                           />
                         </div>
@@ -3639,7 +3692,7 @@
                           class="product-image-large-image swiper-slide img-responsive"
                         >
                           <img
-                            src="assets/images/product/default/home-1/default-6.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-6.jpg' %}"
                             alt=""
                           />
                         </div>
@@ -3654,42 +3707,42 @@
                         <div class="product-image-thumb-single swiper-slide">
                           <img
                             class="img-fluid"
-                            src="assets/images/product/default/home-1/default-1.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-1.jpg' %}"
                             alt=""
                           />
                         </div>
                         <div class="product-image-thumb-single swiper-slide">
                           <img
                             class="img-fluid"
-                            src="assets/images/product/default/home-1/default-2.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-2.jpg' %}"
                             alt=""
                           />
                         </div>
                         <div class="product-image-thumb-single swiper-slide">
                           <img
                             class="img-fluid"
-                            src="assets/images/product/default/home-1/default-3.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-3.jpg' %}"
                             alt=""
                           />
                         </div>
                         <div class="product-image-thumb-single swiper-slide">
                           <img
                             class="img-fluid"
-                            src="assets/images/product/default/home-1/default-4.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-4.jpg' %}"
                             alt=""
                           />
                         </div>
                         <div class="product-image-thumb-single swiper-slide">
                           <img
                             class="img-fluid"
-                            src="assets/images/product/default/home-1/default-5.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-5.jpg' %}"
                             alt=""
                           />
                         </div>
                         <div class="product-image-thumb-single swiper-slide">
                           <img
                             class="img-fluid"
-                            src="assets/images/product/default/home-1/default-6.jpg"
+                            src="{% static 'assets/images/product/default/home-1/default-6.jpg'  %}"
                             alt=""
                           />
                         </div>
@@ -3841,6 +3894,26 @@
         </div>
       </div>
     </div>
+    <!-- ::::::::::::::All JS Files here :::::::::::::: -->
+    <!-- Global Vendor, plugins JS -->
+    <script src="{% static 'assets/js/vendor/modernizr-3.11.2.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/jquery-3.5.1.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/jquery-migrate-3.3.0.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/popper.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/jquery-ui.min.js' %}"></script>
+
+    <!--Plugins JS-->
+    <script src="{% static 'assets/js/plugins/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'assets/js/plugins/material-scrolltop.js' %}"></script>
+    <script src="{% static 'assets/js/plugins/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'assets/js/plugins/jquery.zoom.min.js' %}"></script>
+    <script src="{% static 'assets/js/plugins/venobox.min.js' %}"></script>
+    <script src="{% static 'assets/js/plugins/jquery.waypoints.js' %}"></script>
+    <script src="{% static 'assets/js/plugins/jquery.lineProgressbar.js' %}"></script>
+    <script src="{% static 'assets/js/plugins/aos.min.js' %}"></script>
+    <script src="{% static 'assets/js/plugins/jquery.instagramFeed.js' %}"></script>
+    <script src="{% static 'assets/js/plugins/ajax-mail.js' %}"></script>
 
     <!-- Use the minified version files listed below for better performance and remove the files listed above -->
     <script src="{% static 'assets/js/vendor/vendor.min.js' %}"></script>
