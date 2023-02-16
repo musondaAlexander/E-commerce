@@ -4,3 +4,7 @@ from django.shortcuts import render
 
 def home(reuest):
     return render(reuest, 'index.html')
+
+
+def organic(request):
+    return render(request, 'index-2.html')
