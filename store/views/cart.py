@@ -3,6 +3,6 @@ from django.views import View
 
 # class for account pages
 
-class Login(View):
+class Cart(View):
     def get(self , request):
-        return render(request, 'login.html')
+        return render(request, 'cart.html')
