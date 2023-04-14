@@ -2,7 +2,8 @@
 
 Building an E-commerce site using Django
 THIS PROJECT WILL FOCUS ON DEMONSTRATING HOW TO USE DJANGO TO WRITE
-THE BACK-END OF AN E-COMMERCE SITE
+THE BACK-END OF AN E-COMMERCE SITE. 
+Note: The code in this Project is for Learning purposes.
 
 #===================================================================================
 
