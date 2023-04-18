@@ -16,3 +16,4 @@ Note: The code in this Project is for Learning purposes.
 #===================================================================================
 
 # Path: store\ contains the files that are specif to the store APP Wich is the First appp in the project
+Make sure to install the dependacies in the requirements.txt file in order to run the project 
