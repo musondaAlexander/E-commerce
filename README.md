@@ -2,7 +2,8 @@
 
 Building an E-commerce site using Django
 THIS PROJECT WILL FOCUS ON DEMONSTRATING HOW TO USE DJANGO TO WRITE
-THE BACK-END OF AN E-COMMERCE SITE
+THE BACK-END OF AN E-COMMERCE SITE. 
+Note: The code in this Project is for Learning purposes.
 
 #===================================================================================
 
@@ -15,4 +16,3 @@ THE BACK-END OF AN E-COMMERCE SITE
 #===================================================================================
 
 # Path: store\ contains the files that are specif to the store APP Wich is the First appp in the project
-# path: Templates \ contains all the HTML files  that are used for fron end in this project. 
